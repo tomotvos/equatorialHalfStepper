@@ -37,8 +37,12 @@ void setup()
 	// it goes 15 degrees per hour...by commenting this out, it turns at the correct rate for the gear ratio
 	// implied by the bearing diameter and axis of rotation
 	// stepsPerSecond /= eqGearRatio;
+
 	// ultra-debugging!
 	// stepsPerSecond = 100.0;
+
+	// alternative debugging, just speed things up a bit
+	// stepsPerSecond *= 10.0;
 
 	if (stepsPerSecond > 1.0)
 		myStepper.setMaxSpeed(stepsPerSecond);
