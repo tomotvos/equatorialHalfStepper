@@ -2,5 +2,5 @@
     "configuration": "cpu=atmega328old",
     "board": "arduino:avr:nano",
     "sketch": "equatorialHalfStepper.ino",
-    "port": "/dev/tty.usbserial-1430"
+    "port": "/dev/tty.usbserial-1440"
 }
